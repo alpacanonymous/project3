@@ -1,4 +1,5 @@
-# Mushrooms
+# Predicting Rain Tomorrow in Australia
+Authors: Angela Kim, Daniel Burdeno, Steven Addison, Colin Pelzer
 
 ## Overview
 
@@ -9,6 +10,11 @@
 
 
 
+
+
+## Sources
+- [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/)
+- [Description & Format of weatherAUS dataset](https://rdrr.io/cran/rattle.data/man/weatherAUS.html)
 
 
 ## Repository Structure
