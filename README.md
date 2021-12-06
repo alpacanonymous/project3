@@ -1,5 +1,5 @@
 # Predicting Rain Tomorrow in Australia
-Authors: Angela Kim, Daniel Burdeno, Steven Addison, Colin Pelzer
+Authors: Angela Kim, Colin Pelzer, Daniel Burdeno, Steven Addison
 
 ## Overview
 
