@@ -15,7 +15,7 @@ Authors: Angela Kim, Colin Pelzer, Daniel Burdeno, Steven Addison
 ## Sources
 - [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/)
 - [Description & Format of weatherAUS dataset](https://rdrr.io/cran/rattle.data/man/weatherAUS.html)
-
+- [Climate-Data.org](https://en.climate-data.org/oceania/australia-140/)
 
 ## Repository Structure
 ```
