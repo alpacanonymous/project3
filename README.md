@@ -13,7 +13,7 @@ Agriculture is an essential part of Australia's economy, and rainfall plays a bi
 
 
 ## Data Understanding
-The data comes from the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/) and covers climate statistics from 2007-2017, which was then compiled into a dataset found on [Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package). We supplemented this dataset with data from other sources <a href=Sources>(see below)</a>. This dataset covers 49 locations from all over Australia and contains records for 22 weather features with their corresponding dates. Refer [here](https://rdrr.io/cran/rattle.data/man/weatherAUS.html) for description about each feature. After exploring and preparing the data, we designed a classification model to predict whether it will "Rain Tomorrow" in the various locations in Australia.
+The data comes from the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/) and covers climate statistics from 2007-2017, which was then compiled into a dataset found on [Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package). We supplemented this dataset with data from other sources <a href="Sources">(see below)</a>. This dataset covers 49 locations from all over Australia and contains records for 22 weather features with their corresponding dates. Refer [here](https://rdrr.io/cran/rattle.data/man/weatherAUS.html) for description about each feature. After exploring and preparing the data, we designed a classification model to predict whether it will "Rain Tomorrow" in the various locations in Australia.
 
 
 ## Data Preparation & Analysis
@@ -42,7 +42,7 @@ To view our presentation, click [here](https://www.canva.com/design/DAEx3uG5NIU/
 Because the dataset covers the entire continent of Australia, which includes a wide range of climates, our next step would be to make individual models for each of the 49 locations.
 
 
-## <a id=Sources>Sources</a>
+## <a id="Sources">Sources</a>
 - [Dataset on Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
 - [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/)
 - [Description & Format of weatherAUS dataset](https://rdrr.io/cran/rattle.data/man/weatherAUS.html)
