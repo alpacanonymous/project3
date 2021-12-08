@@ -17,7 +17,7 @@ The data comes from the [Australian Government Bureau of Meteorology](http://www
 
 
 ## Data Preparation & Analysis
-The `weatherAUS` dataset contains 145460 entries(rows) with 343248 null values. Nearly every feature(column) has null values with the exception of `Date` and `Location`. We were able to fill in the majority of missing values in `Sunshine` by taking the mean value for each month in each location provided by the [BOM](http://www.bom.gov.au). All other missing values were imputed using sklearn's KNNImputer. We dropped `Evaporation` because about 43% of its values were missing, and we couldn't find any information to fill. The target for our models is `RainTomorrow`.
+The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values. Nearly every feature(column) has null values with the exception of `Date` and `Location`. We were able to fill in the majority of missing values in `Sunshine` by taking the mean value for each month in each location provided by the [BOM](http://www.bom.gov.au). All other missing values were imputed using sklearn's KNNImputer. We dropped `Evaporation` because about 43% of its values were missing, and we couldn't find any information to fill. The target for our models is `RainTomorrow`.
 
 
 ## Modeling
