@@ -13,7 +13,7 @@ Agriculture is an essential part of Australia's economy, and rainfall plays a bi
 
 
 ## Data Understanding
-The data comes from the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/) and covers climate statistics from 2007-2017, which was then compiled into a dataset found on [Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package). We supplemented this dataset with data from other sources <a href="Sources">(see below)</a>. This dataset covers 49 locations from all over Australia and contains records for 22 weather features with their corresponding dates. Refer [here](https://rdrr.io/cran/rattle.data/man/weatherAUS.html) for description about each feature. After exploring and preparing the data, we designed a classification model to predict whether it will "Rain Tomorrow" in the various locations in Australia.
+The data comes from the [Australian Government Bureau of Meteorology](http://www.bom.gov.au/climate/data/) and covers climate statistics from 2007-2017, which was then compiled into a dataset found on [Kaggle](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package). We supplemented this dataset with data from other sources <a href="#Sources">(see below)</a>. This dataset covers 49 locations from all over Australia and contains records for 22 weather features with their corresponding dates. Refer [here](https://rdrr.io/cran/rattle.data/man/weatherAUS.html) for description about each feature. After exploring and preparing the data, we designed a classification model to predict whether it will "Rain Tomorrow" in the various locations in Australia.
 
 
 ## Data Preparation & Analysis
