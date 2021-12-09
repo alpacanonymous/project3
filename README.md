@@ -33,6 +33,10 @@ Logistic Regression Test Metrics:
 XGBoost Test Metrics:
 
 
+## Visualizations
+<img width="806" alt="skylar_chart" src="https://user-images.githubusercontent.com/79756630/145322462-9caeb33d-3c64-40b3-a2ca-88543aa38388.png">
+
+
 ## Conclusions
 TEXTY TEXT
 
