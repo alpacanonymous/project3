@@ -63,13 +63,17 @@ Because the dataset covers the entire continent of Australia, which includes a w
 ├── data
 │    ├── sunshine.py
 │    ├── weatherAUS.csv
-│    ├── X_test_KNNI.csv
-│    ├── X_train_KNNI.csv
-│    ├── y_test.csv
-│    └── y_train.csv
-├── .gitignore
+│    ├── X_test_KNNI.parquet
+│    ├── X_train_KNNI.parquet
+│    ├── y_test.parquet
+│    └── y_train.parquet
 ├── images
+│    ├── accuracy_chart.png
+│    ├── kangaroos.jpeg
+│    └──
+├── .gitignore
 ├── README.md
 ├── slides.pdf
-└── notebook.ipynb
+├── eda_notebook.ipynb
+└── modeling_notebook.ipynb
 ```
