@@ -21,6 +21,8 @@ The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values
 
 
 ## Modeling
+We chose <i>accuracy</i> as our evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are are expecting rain in a wetter region, they can protect their crops from flooding.
+
 Baseline Model Test Metrics:
 - Accuracy Score: 0.668
 - Recall Score: 0.201
