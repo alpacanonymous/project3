@@ -17,22 +17,23 @@ The data comes from the [Australian Government Bureau of Meteorology](http://www
 
 
 ## Data Preparation & Analysis
-The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values. Nearly every feature(column) has null values with the exception of `Date` and `Location`. We were able to fill in the majority of missing values in `Sunshine` by taking the mean value for each month in each location provided by the [BOM](http://www.bom.gov.au). All other missing values were imputed using sklearn's KNNImputer. We dropped `Evaporation` because about 43% of its values were missing, and we couldn't find any information to fill them in. The target for our models is `RainTomorrow`.
+The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values. The target for our models is `RainTomorrow`. Nearly every feature(column) has null values with the exception of `Date` and `Location`. We were able to fill in the majority of missing values in `Sunshine` using data provided by [BOM](http://www.bom.gov.au). We did this by creating a nested dictionary of each location with the mean values of `Sunshine` for each month. We extracted `Month` from `Date` then used a for loop to replace a null value for `Sunshine` based on `Location` and `Month`. All other missing values were imputed using sklearn's KNNImputer. We dropped `Evaporation` because about 43% of its values were missing, and we couldn't find any information to fill them in. We removed the three records of 9 within the `Cloud9am` and `Cloud3pm` columns under the assumption that they were misrecorded because the values range from 0-8 [oktas](https://en.wikipedia.org/wiki/Okta). All categorical features were encoded using sklearn's OneHotEncoder.
 
 
 ## Modeling
 We chose <i>accuracy</i> as our evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding.
 
-Baseline Model Test Metrics:
-- Accuracy Score: 0.668
-- Recall Score: 0.201
-- Precision Score: 0.201
-- F1 Score: 0.201
+Baseline Model Accuracy Score: 0.668
 
-Logistic Regression Test Metrics:
+Logistic Regression Accuracy Score: 0.787
 
+Random Forest Accuracy Score: 0.843
 
-XGBoost Test Metrics:
+Decision Tree Accuracy Score: 0.844
+
+Gradient Boost Accuracy Score: 0.856
+
+XGBoost Accuracy Score: 0.862
 
 
 ## Visualizations
