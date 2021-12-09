@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/79756630/145095351-9a4b9850-53b3-4f25-b3df-a4f471e03856.png)
+![kangaroos](https://github.com/aykim1127/project3/blob/main/images/kangaroos.jpeg)
 
 # Predicting Rain Tomorrow in Australia
 Authors: Angela Kim, Colin Pelzer, Daniel Burdeno, Steven Addison
@@ -36,7 +36,7 @@ XGBoost Test Metrics:
 
 
 ## Visualizations
-<img width="806" alt="skylar_chart" src="https://user-images.githubusercontent.com/79756630/145322462-9caeb33d-3c64-40b3-a2ca-88543aa38388.png">
+![accuracy chart](https://github.com/aykim1127/project3/blob/main/images/accuracy_chart.png)
 
 
 ## Conclusions
