@@ -71,20 +71,17 @@ Because the dataset covers the entire continent of Australia, which includes a w
 
 ## Repository Structure
 ```
-├── data
+├── [data]
 │    ├── sunshine.py
 │    ├── weatherAUS.csv
 │    ├── X_test_KNNI.parquet
 │    ├── X_train_KNNI.parquet
 │    ├── y_test.parquet
 │    └── y_train.parquet
-├── images
-│    ├── accuracy_chart.png
-│    ├── kangaroos.jpeg
-│    └──
+├── [images]
 ├── .gitignore
 ├── README.md
-├── slides.pdf
+├── presentation.pdf
 ├── eda_notebook.ipynb
 └── modeling_notebook.ipynb
 ```
