@@ -23,26 +23,33 @@ The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values
 ## Modeling
 We chose <i>accuracy</i> as our evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding.
 
-Baseline Model Accuracy Score: 0.668
-Baseline Model Precision Score: 0.206
+#### Baseline Model
+- Accuracy Score: 0.668
+- Precision Score: 0.206
 
-Logistic Regression Accuracy Score: 0.787
-Logistic Regression Precision Score: 0.491
+#### Logistic Regression
+- Accuracy Score: 0.787
+- Precision Score: 0.491
 
-Decision Tree Accuracy Score: 0.842
-Decision Tree Precision Score: 0.686
+#### Decision Tree
+- Accuracy Score: 0.842
+- Precision Score: 0.686
 
-Random Forest Accuracy Score: 0.843
-Random Forest Precision Score: 0.786
+#### Random Forest
+- Accuracy Score: 0.843
+- Precision Score: 0.786
 
-Gradient Boost Accuracy Score: 0.856
-Gradient Boost Precision Score: 0.724
+#### Gradient Boost
+- Accuracy Score: 0.856
+- Precision Score: 0.724
 
-XGBoost Accuracy Score: 0.862
-XGBoost Precision Score: 0.740
+#### XGBoost
+- Accuracy Score: 0.862
+- Precision Score: 0.740
 
-XGBoost2 Accuracy Score: 0.862
-XGBoost2 Precision Score: 0.747
+#### XGBoost2
+- Accuracy Score: 0.862
+- Precision Score: 0.747
 
 
 ## Visualizations
