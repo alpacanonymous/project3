@@ -68,7 +68,7 @@ In conclusion, our best performing model was our second XGBoost model with an ac
 
 In addition to location, the features with the strongest effect on our model are afternoon weather conditions, specifically relative humidity, cloud cover, and max wind gust speed. Farmers can use this information to their advantage. By being conscious of humidity, amount of cloud cover, and wind gust speed, they can use our model to determine whether or not it will rain the next day or at least keep these features in mind to make educational guesses.
 
-To view our presentation, click [here](https://www.canva.com/design/DAEx3uG5NIU/PnQ6UHDDkNjACTbod4degQ/view#4).
+To view our presentation, click [here](https://github.com/aykim1127/project3/blob/main/final_presentation.pdf).
 
 
 ## Next Steps
