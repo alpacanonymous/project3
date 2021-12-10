@@ -24,16 +24,25 @@ The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values
 We chose <i>accuracy</i> as our evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding.
 
 Baseline Model Accuracy Score: 0.668
+Baseline Model Precision Score: 0.206
 
 Logistic Regression Accuracy Score: 0.787
+Logistic Regression Precision Score: 0.491
+
+Decision Tree Accuracy Score: 0.842
+Decision Tree Precision Score: 0.686
 
 Random Forest Accuracy Score: 0.843
-
-Decision Tree Accuracy Score: 0.844
+Random Forest Precision Score: 0.786
 
 Gradient Boost Accuracy Score: 0.856
+Gradient Boost Precision Score: 0.724
 
 XGBoost Accuracy Score: 0.862
+XGBoost Precision Score: 0.740
+
+XGBoost2 Accuracy Score: 0.862
+XGBoost2 Precision Score: 0.747
 
 
 ## Visualizations
@@ -41,21 +50,23 @@ XGBoost Accuracy Score: 0.862
 ![]()
 
 ## Conclusions
-Our top performing models were Random Forest, Decision Tree, Gradient Boost, and XGBoost. XGBoost performed the best with an accuracy of 86.2%.
+In conclusion, our best performing model was our second XGBoost model with an accuracy of 86.2 and precision of 74.7%. We also chose XGBoost for its fast computational power compared to the other models. This has potential to be used in the field where strong computers are scarce.
 
--In conclusion, our best model predicts whether it will rain tomorrow or not with 86% accuracy. In addition to location, the features with the strongest effect on our model are afternoon weather conditions, specifically relative humidity, cloud cover, and max wind speed.
--Now we ask ourselves: how can we improve our accuracy? First, we would have to gather more data. Because our dataset was missing so many values, our top priority would be to extract the correct numbers from the Bureau of Meteorology. However, this would require more time and money.
-Another important consideration is a multiple model approach.
-Because this model takes information from all over Australia, a country with an area of 2.97 million square miles, with multiple climates and subclimates, we believe designing multiple models for each distinguished climate would produce better results.
-Lastly, we must consider climate change. As global temperatures continue to increase, we must adjust our models to take erratic weather conditions into account.
-
-
+In addition to location, the features with the strongest effect on our model are afternoon weather conditions, specifically relative humidity, cloud cover, and max wind gust speed. Farmers can use this information to their advantage. By being conscious of humidity, amount of cloud cover, and wind gust speed, they can use our model to determine whether or not it will rain the next day or at least keep these features in mind to make educational guesses.
 
 To view our presentation, click [here](https://www.canva.com/design/DAEx3uG5NIU/PnQ6UHDDkNjACTbod4degQ/view#4).
 
 
 ## Next Steps
-Because the dataset covers the entire continent of Australia, which includes a wide range of climates, our next step would be to make individual models for each of the 49 locations.
+With an accuracy of 86.2% and precision of 74.7%, we think we can do better. First, we would have to gather more data. Because our dataset was missing so many values, our top priority would be to extract the correct numbers from the Bureau of Meteorology or other resources. However, this would require more time and money.
+
+We would also implement feature engineering, looking at things such as the change of some of these values and not just the exact recorded measurements.
+
+Another important consideration is a multiple model approach. Because this model takes information from all over Australia, a country with an area of 2.97 million square miles, with multiple climates and subclimates, we believe designing multiple models for each distinguished climate would produce better results.
+
+We must consider climate change. As global temperatures continue to increase, we must adjust our models to take erratic weather conditions into account.
+
+Ultimately, we would like to predict further out than the day ahead.
 
 
 ## <a id="Sources">Sources</a>
