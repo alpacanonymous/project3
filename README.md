@@ -21,9 +21,12 @@ The data comes from the [Australian Government Bureau of Meteorology](http://www
 ## Data Preparation & Analysis
 The `weatherAUS` dataset contains 145,460 entries(rows) with 343,248 null values. The target for our models is `RainTomorrow`. Nearly every feature(column) has null values with the exception of `Date` and `Location`. We were able to fill in the majority of missing values in `Sunshine` using data provided by [BOM](http://www.bom.gov.au) and [Climate-Data.org](https://en.climate-data.org/oceania/australia-140/). We did this by creating a nested dictionary of each location with the mean values of `Sunshine` for each month. We extracted `Month` from `Date` then used a for loop to replace a null value for `Sunshine` based on `Location` and `Month`. All other missing values were imputed using sklearn's KNNImputer. We dropped `Evaporation` because about 43% of its values were missing, and we couldn't find any information to fill them in. We removed the three records of 9 within the `Cloud9am` and `Cloud3pm` columns under the assumption that they were misrecorded because the values range from 0-8 [oktas](https://en.wikipedia.org/wiki/Okta). All categorical features were encoded using sklearn's OneHotEncoder.
 
+[Notebook]()
 
 ## Modeling
-We chose <i>accuracy</i> as our evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding.
+We chose <i>accuracy</i> as our primary metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding. For our secondary objective we want to increase precision while maximizing accuracy in order to maintain positive predictions. See our notebook linked below for further details on our iterative model approach.
+
+[Notebook]()
 
 #### Baseline Model
 - Accuracy Score: 0.668
