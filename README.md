@@ -26,8 +26,6 @@ Click [here](https://github.com/aykim1127/project3/blob/main/data_prep_notebook.
 ## Modeling
 We chose <i>accuracy</i> as our primary evaluation metric for our models because predicting rain accurately is the most valuable information for farmers. If they are expecting no rain in a drier region, they can prepare sprinklers. If they are expecting rain in a wetter region, they can protect their crops from flooding. For our secondary objective, we wanted to increase <i>precision</i> while maximizing accuracy in order to maintain positive predictions.
 
-Click [here](https://github.com/aykim1127/project3/blob/main/modeling_notebook.ipynb) for further details on our iterative model approach.
-
 #### Baseline Model
 - Accuracy Score: 0.668
 - Precision Score: 0.206
@@ -55,6 +53,8 @@ Click [here](https://github.com/aykim1127/project3/blob/main/modeling_notebook.i
 #### XGBoost2
 - Accuracy Score: 0.862
 - Precision Score: 0.747
+
+Click [here](https://github.com/aykim1127/project3/blob/main/modeling_notebook.ipynb) for further details on our iterative model approach.
 
 
 ## Visualizations
