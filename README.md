@@ -104,7 +104,7 @@ Ultimately, we would like to predict further out than the day ahead.
 ├── [images]
 ├── .gitignore
 ├── README.md
-├── presentation.pdf
 ├── data_prep_notebook.ipynb
+├── final_presentation.pdf
 └── modeling_notebook.ipynb
 ```
