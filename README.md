@@ -58,8 +58,10 @@ Click [here](https://github.com/aykim1127/project3/blob/main/modeling_notebook.i
 
 
 ## Visualizations
-![accuracy chart](https://github.com/aykim1127/project3/blob/main/images/accuracy_chart.png)
-![]()
+![accuracy](https://github.com/aykim1127/project3/blob/main/images/accuracy.png?raw=true)
+![features](https://github.com/aykim1127/project3/blob/main/images/best_features.png?raw=true)
+![boxplot](https://github.com/aykim1127/project3/blob/main/images/boxplot.png)
+![roc](https://github.com/aykim1127/project3/blob/main/images/final_roc.png?raw=true)
 
 ## Conclusions
 In conclusion, our best performing model was our second XGBoost model with an accuracy of 86.2 and precision of 74.7%. We also chose XGBoost for its fast computational power compared to the other models. This has potential to be used in the field where strong computers are scarce.
