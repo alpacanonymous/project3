@@ -7,6 +7,8 @@ Authors: Angela Kim, Colin Pelzer, Daniel Burdeno, Steven Addison
 ## Overview
 This project analyzes climate data of various locations in Australia and designs the best classification model to predict whether it will rain tomorrow based on different weather features such as relative humidity, cloud cover, and atmospheric pressure.
 
+<img width="948" alt="map" src="https://user-images.githubusercontent.com/79756630/145599738-f39449d0-8af4-4209-ace3-3dd8920afcdb.png">
+
 
 ## Business Problem
 Agriculture is an essential part of Australia's economy, and rainfall plays a big role in its success. Real-time weather forecasting can help farmers make better decisions on how to tend to their crops. It's important to know what kinds of weather conditions (ie. relative humidity, hours of sunshine) will determine precipitation in order to implement the best methods to protect crops and secure a high and robust yield. For areas with low rainfall, it would be important to know if it will rain so that farmers know if they should prepare to irrigate their crops or not. For areas with high rainfall, farmers can use a predictive model to protect their crops from flooding. Another area of farming that depends on real-time rain forecasting is fertilizer application and timing. You want the appropriate amount of moisture in the soil so that the fertilizer can be worked in. Soil moisture also determines field workablity. Farmers can become more efficient in their operations and save costs on unnecessary irrigations and poor fertilization scheduling. <a href="#Sources">(source)</a>
